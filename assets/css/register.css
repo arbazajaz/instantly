@@ -1,0 +1,23 @@
+/* logIn */
+.logIn a.forget{
+    color: rgb(132, 146, 166);
+    font-size: 18px;
+    font-weight: 800 ;
+}
+.logIn a.forget:hover{
+    color: rgb(3, 110, 250);
+}
+.logIn .logIn-btn{
+    min-width: 120px;
+}
+/* sinUp */
+
+.sign-up  h3{
+    font-size: 36px;
+}
+.sign-up form .form-control{
+    padding: 30px 30px;
+    font-size: 16px;
+    font-weight: 500;
+    background: transparent;
+}
