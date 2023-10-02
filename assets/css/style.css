@@ -63,6 +63,9 @@ ul {
 img{
     max-width: 100%;
 }
+a:hover{
+    text-decoration: none;
+}
 
 .form-control {
     background: rgba(255, 255, 255, 0.9);
@@ -142,6 +145,13 @@ img {
     font-size: 50px;
     font-weight: 600;
     line-height: 1.14;
+}
+.mini-heading{
+    color: #050917;
+    margin-bottom: 12px;
+    font-weight: 600;
+    line-height: 1.1;
+    font-size: 28px;
 }
 .btn-dark:hover{
     background-color: #1179fc !important;
@@ -235,8 +245,24 @@ header .navbar-dark .navbar-nav .nav-link:hover {
     border-radius: 20px;
 }
 
-/* header*/
 
+/* footer*/
+footer{
+    background-size: cover; background-repeat: no-repeat;
+}
+footer .footer-links {
+    padding: 7px 0px;
+}
+footer .navbar-brand img{
+    max-width: 250px;
+}
+footer .footer-links a{
+    opacity: .75;
+    color: #fff;
+    line-height: 1.4;
+    font-size: 20px;
+    font-weight: 400;
+}
 /* Media Query */
 
 @media only screen and (max-width: 1200px) {

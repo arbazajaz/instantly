@@ -19,12 +19,33 @@
 
 <body>
     <main>
-        <div class="font-weight-bold d-none d-sm-block"
-            style="position: fixed; color: rgb(0, 91, 255); font-size: 19px; padding: 26px 32px; line-height: 24px;">
-            <img src="assets/images/registration/current.svg" width="24" alt="instantly_logo.svg"
-                class=" mr-2">Instantly
-        </div>
-        <section class="d-flex align-items-center justify-content-center sign-up" style="height: 100vh;">
+        <header class="sticky-top bg-black">
+            <div class="container">
+                <nav class="navbar navbar-expand-sm navbar-dark">
+                    <a class="navbar-brand" href="#"><img class="img-fluid" src="assets/images/logo-removebg.png"
+                            alt=""></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+                        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="logIn.html">Login</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link btn btn-dark" href="signUp.html">Get Started</a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </nav>
+
+            </div>
+        </header>
+
+        <section class="d-flex align-items-center justify-content-center sign-up" style="min-height: 100vh;">
             <div class="d-none d-md-block" style="position: fixed; right: 0px; bottom: 0px; top: 0px;">
                 <img src="assets/images/registration/signUp-bg.svg" alt="not-show">
             </div>
@@ -62,31 +83,36 @@
                                             </div>
                                             <div class="col-12">
                                                 <div class="d-flex align-items-center mt-4">
-                                                    <span
-                                                        style="padding: 0px; margin-right: 12px;"><input
-                                                            type="checkbox"><span><span class="text-muted pl-2 agree"
-                                                              >I agree
-                                                                to
-                                                                the Instantly <a target="blank"
-                                                                    href="https://instantly.ai/terms">Terms of
-                                                                    Use</a></span>
+                                                    <span style="padding: 0px; margin-right: 12px;"><input
+                                                            type="checkbox" id="terms">
+                                                            <label for="terms">
+                                                                <span class="text-muted pl-2 agree">I
+                                                                    agree
+                                                                    to
+                                                                    the Instantly <a 
+                                                                        href="#">Terms of
+                                                                        Use</a></span>
+                                                            </label>
                                                 </div>
                                             </div>
                                             <div class="col-12">
                                                 <div class="d-flex align-items-center mt-4"><span
                                                         style="padding: 0px; margin-right: 12px;">
-                                                        <input
-                                                            type="checkbox"><span><span class="text-muted pl-2 agree"
-                                                                >I agree
-                                                                to
-                                                                the Instantly <a target="blank" href="#">Privacy
-                                                                    policy</a></span>
+                                                        <input type="checkbox" id="policy">
+                                                                    <label for="policy">
+                                                                        <span
+                                                                        class="text-muted pl-2 agree">I agree
+                                                                        to
+                                                                        the Instantly <a href="#">Privacy
+                                                                            policy</a></span>
+                                                                    </label>
                                                 </div>
                                             </div>
 
                                             <div class="mt-4 mb-0 text-center col-lg-12"><button type="button"
                                                     class="w-100 btn btn-primary text-white"
-                                                    style="padding: 20px 32px; border-radius: 12px; color: #006bff;">Join Now</button>
+                                                    style="padding: 15px 32px; border-radius: 12px; color: #006bff;">Join
+                                                    Now</button>
                                             </div>
                                             <div class="text-center mt-5 col-12">
                                                 <p style="color: #3c4858; font-size:20px">Already have an account?
