@@ -1,23 +1,72 @@
 /* logIn */
-.logIn a.forget{
+.log-in h3{
+    font-weight: 600;
+}
+.log-in  input.form-control{
+ height: 60px;
+ font-weight: 500;
+}
+.log-in a.forget{
     color: rgb(132, 146, 166);
     font-size: 18px;
-    font-weight: 800 ;
+    font-weight: 700 ;
 }
-.logIn a.forget:hover{
+.log-in a.forget:hover{
     color: rgb(3, 110, 250);
 }
-.logIn .logIn-btn{
-    min-width: 120px;
+.log-in .logIn-btn{
+    min-width: 140px;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 10px 0px;
+    background-color: #2ECA89;
+    border-color: #2ECA89
+}
+.log-in .logIn-btn:hover{
+    background-color: #218838;
+    border-color: #1e7e34
 }
 /* sinUp */
 
 .sign-up  h3{
     font-size: 36px;
 }
+.sign-up  .width430{
+    width: 430px;
+}
 .sign-up form .form-control{
-    padding: 30px 30px;
+    padding: 33px 30px;
     font-size: 16px;
     font-weight: 500;
+    border-radius: 6px;
+    border: 1px solid #dee2e6;
+    margin-bottom: 7px;
     background: transparent;
+}
+.sign-up form .form-control:focus{
+    border-color: #006bff
+}
+.sign-up form span.agree{
+    font-size: 20px;
+}
+@media only screen and (max-width: 1200px) {
+  
+}
+@media only screen and (max-width: 992px) {
+  
+}
+@media only screen and (max-width: 768px) {
+  
+  
+}
+@media only screen and (max-width: 576px) {
+    /* sign-up */
+    .sign-up form span.agree{
+        font-size: 15px;
+    }
+    .sign-up  .width430{
+        width: 100%;
+        padding: 20px 0px;
+    }
+  
 }
