@@ -1,3 +1,9 @@
+.collapse-items .title{
+    min-height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .collapse-items .card{
     border: none;
     border-radius: 20px;
@@ -11,6 +17,16 @@
     color: rgba(15,15,15,.65);
     font-size: 40px;
     font-weight: 500;
+}
+.collapse-items .card-body{
+    min-height: 400px;
+}
+.collapse-items .seperator {
+    width: 100%;
+    height: 1px;
+    opacity: .25;
+    background-image: radial-gradient(circle closest-corner,#050917,#050917 50%,#fff);
+    margin-bottom: 40px;
 }
 .collapse-items .click span{
    color: #222;
@@ -32,3 +48,13 @@
     align-items: center;
     display: flex;
 }
+.rotate-clockwise {
+    transition: transform 0.5s; /* Add a transition for smooth rotation */
+  }
+  
+  .rotate-clockwise.rotate {
+    transform: rotate(180deg); /* Rotate the image by 90 degrees (clockwise) */
+  }
+  .original-position {
+    transition: transform 0.5s; /* Add a transition for smooth rotation */
+  }
