@@ -48,13 +48,14 @@
     align-items: center;
     display: flex;
 }
-.rotate-clockwise {
-    transition: transform 0.5s; /* Add a transition for smooth rotation */
-  }
   
-  .rotate-clockwise.rotate {
+  .rotate-clockwise  {
+    transition: transform 0.5s;
     transform: rotate(180deg); /* Rotate the image by 90 degrees (clockwise) */
   }
   .original-position {
     transition: transform 0.5s; /* Add a transition for smooth rotation */
+  }
+  .hovered{
+    background-color: aquamarine;
   }

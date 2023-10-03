@@ -28,17 +28,16 @@
             <div id="accordion">
               <!-- 1 -->
               <div class="card">
-                <div class="card-header bg-white" id="headingOne">
+                <div class="card-header bg-white heading-one" data-toggle="collapse" data-target="#collapseOne"
+                  aria-controls="collapseOne">
                   <div class="title">
-                    <button class="btn btn-link text-decoration-none click text-left title_one" data-toggle="collapse"
-                      data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" id="clich_btn">
+                    <button class="btn btn-link text-decoration-none click text-left">
                       Protect Your Deliverability with
                       <span>Email Validation and Bulk Domain Testing</span>
                     </button>
-                    <div class="click-img" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
-                      aria-controls="collapseOne">
+                    <div class="click-img">
 
-                      <img src="assets/images/collapse/click-img.svg" alt="not-show" id="img_one">
+                      <img src="assets/images/collapse/click-img.svg" alt="not-show" class="img_one">
 
                     </div>
                   </div>
@@ -66,10 +65,10 @@
               </div>
               <!-- 2 -->
               <div class="card">
-                <div class="card-header bg-white" id="headingTwo">
+                <div class="card-header bg-white heading-two" data-toggle="collapse" data-target="#collapseTwo"
+                  aria-expanded="true" aria-controls="collapseTwo">
                   <div class="title">
-                    <button class="btn btn-link text-decoration-none click text-left title_two"  data-toggle="collapse"
-                      data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                    <button class="btn btn-link text-decoration-none click text-left">
                       Automate & Personalise Emails with
                       <span>Campaign Builder &
                         Integrations</span>
@@ -106,18 +105,17 @@
 
               <!-- 3 -->
               <div class="card">
-                <div class="card-header bg-white" id="headingThree">
+                <div class="card-header bg-white heading-three" data-toggle="collapse" data-target="#collapseThree"
+                  aria-expanded="true" aria-controls="collapseThree">
                   <div class="title">
-                    <button class="btn btn-link text-decoration-none click text-left title_three" data-toggle="collapse"
-                      data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                    <button class="btn btn-link text-decoration-none click text-left">
                       Save Time with
 
                       <span>Inbox Rotation</span>
                     </button>
-                    <div class="click-img" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true"
-                      aria-controls="collapseThree">
+                    <div class="click-img">
 
-                      <img src="assets/images/collapse/click-img.svg" alt="not-show" class="img_Three" >
+                      <img src="assets/images/collapse/click-img.svg" alt="not-show" class="img_Three">
 
                     </div>
                   </div>
@@ -156,36 +154,39 @@
   <script src="assets/js/bootstrap.min.js"></script>
 
   <script>
-    $(document).ready(function() {
+    $(document).ready(function () {
+      //  Rotate icon
       // 1
-      $(".collapse-items .title_one").click(function() {
-        $(".img_one").toggleClass("rotate-clockwise rotate");
-        setTimeout(function() {
-      $(".img_one").toggleClass("original-position");
-    }, 500);
+      $(".collapse-items .heading-one").click(function () {
+        $(".collapse-items .img_one").toggleClass("rotate-clockwise");
+        setTimeout(function () {
+          $(".collapse-items .img_one").toggleClass("original-position");
+        }, 500);
       });
       // 2
-      $(".collapse-items .title_two").click(function() {
-        $(".img_two").toggleClass("rotate-clockwise rotate");
-        setTimeout(function() {
-      $(".img_two").toggleClass("original-position");
-    }, 500);
+      $(".collapse-items .heading-two").click(function () {
+        $(".collapse-items .img_two").toggleClass("rotate-clockwise");
+        setTimeout(function () {
+          $(".collapse-items .img_two").toggleClass("original-position");
+        }, 500);
       });
       // 3
-      $(".collapse-items .title_three").click(function() {
-        $(".img_Three").toggleClass("rotate-clockwise rotate");
-        setTimeout(function() {
-      $(".img_Three").toggleClass("original-position");
-    }, 500);
+      $(".collapse-items .heading-three").click(function () {
+        $(".collapse-items .img_Three").toggleClass("rotate-clockwise");
+        setTimeout(function () {
+          $(".collapse-items .img_Three").toggleClass("original-position");
+        }, 500);
       });
+
     });
-    </script>
-    
-    
-    
-    
-    
-    
+
+  </script>
+
+
+
+
+
+
 
 
 </body>
