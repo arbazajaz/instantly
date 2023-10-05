@@ -92,7 +92,6 @@ img {
     min-width: 160px;
     font-weight: 700;
     letter-spacing: 2px;
-    text-transform: uppercase;
     border-radius: 40px;
     transition: all .2s;
 }
@@ -115,7 +114,11 @@ img {
 .btn-transparent{
     background-color: transparent;
     color: #1179fc;
-
+}
+.btn-trans{
+    
+    border: 0px;
+    background: transparent;
 }
 .btn-primary:hover{
     background: #0f0f0f;
@@ -169,7 +172,9 @@ img {
     font-size: 18px;
     font-weight: lighter;
     color: rgba(37, 43, 59, 0.475);
+    color: #2B81EE;
     margin-bottom: 30px;
+    line-height: 1.4em;
 }
 
 .white-card{
