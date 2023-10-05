@@ -1,0 +1,146 @@
+.about-hero .container,
+.empowering .container{
+    max-width: 1440px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.about-hero{
+    background-image: url('../images/about/bg-image.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    min-height: 1000px;
+}
+
+
+.about-hero h1.main-heading,
+.get-started h1.main-heading{
+    font-size: 72px;
+}
+p.about-para{
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: 1.6;
+}
+.about-hero .m-botton84{
+    margin-bottom: 84px;
+}
+
+.about-hero .about-value {
+    -webkit-backdrop-filter: blur(40px);
+    backdrop-filter: blur(40px);
+    background-color: rgba(5,9,23,.2);
+    text-align: center;
+    border-radius: 20px;
+    padding: 40px 32px;
+}
+.about-hero h1.about-value-title{
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 1;
+}
+/* cold-email */
+.empowering h1{
+    color: rgb(96, 97, 98) !important;
+    font-weight: 500;
+    font-size: 48px;
+}
+.empowering h1 span{
+    color: #0f0f0f;
+    font-weight: 600;
+}
+p.about-para{
+    color: #0f0f0f;
+}
+/* our-team */
+.our-team{
+    padding: 50px 0px;
+}
+.our-team .about-para{
+    max-width: 476px;
+}
+.our-team h4{
+    font-size: 40px;
+    font-weight: 600;
+}
+.our-team .timing{
+    background-color: #fff;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+.our-team .position-title{
+    color: #0f0f0f;
+    letter-spacing: -1px;
+    margin-bottom: 0;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.3;
+}
+.our-team .position-divider{
+    position: relative;
+    top: 15px;
+    width: 20px;
+    height: 2px;
+    color: #0f0f0f;
+    background-color: #0f0f0f;
+}
+.our-team .apply{
+    background-color: #fff;
+    border: 1px solid #1179fc;
+    color: #1179fc;
+}
+.our-team .apply:hover{
+   background-color: #1179fc;
+   color: white;
+}
+
+@media only screen and (max-width: 992px) {
+    /* .about-hero */
+    .about-hero h1.main-heading{
+        font-size: 54px;
+    }
+    .about-hero .m-botton84 {
+        margin-bottom: 26px;
+    }
+    p.about-para{
+        font-size: 18px;
+    }
+    .about-hero .about-value h1 {
+        font-size: 38px;
+    }
+
+}
+@media only screen and (max-width: 768px) {
+    /* .about-hero */
+    .about-hero h1.main-heading{
+        font-size: 44px;
+    }
+    .our-team .timing {
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 576px) {
+    /* .about-hero */
+    .about-hero h1.main-heading{
+        font-size: 36px;
+    }
+    p.about-para{
+        font-size: 17px;
+    }
+    /* .empowering */
+    .empowering h1 {
+        font-size: 35px;
+    }
+    /* our-team */
+    .our-team .position-title {
+        font-size: 20px;
+
+    }
+    .our-team .position-divider {
+        top: 12px;
+    }
+}
