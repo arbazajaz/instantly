@@ -138,6 +138,9 @@ img {
 .text-primary {
     color: #0D328D !important;
 }
+.text-danger{
+    color: rgba(15,15,15,.65);
+}
 
 .main-heading {
     color: #0f0f0f;
@@ -176,6 +179,13 @@ img {
     margin-bottom: 30px;
     line-height: 1.4em;
 }
+.mega-para{
+    color: rgba(15,15,15,.75);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.6;
+    margin-bottom: 38px;
+}
 
 .white-card{
     background-color: #fff;
@@ -194,7 +204,12 @@ img {
     border-radius: 8px;
     margin-right: 7px;
 }
-
+.person-image {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    margin-right: 16px;
+}
 /* header  */
 header .navbar-brand img{
     max-width: 150px;
@@ -226,8 +241,135 @@ header .navbar-dark .navbar-nav .nav-link:hover {
     background-size: cover;
     background-repeat: no-repeat;
 }
-.hero-section .main-heading{
+.hero-section .major-heading{
     font-size: 100px;
+}
+
+
+.testimonial-section-wrapper {
+    z-index: 99;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    position: relative;
+    overflow: visible
+}
+
+.testimonial-section-sub-wrapper {
+    z-index: 999;
+    width: 100%;
+    max-width: 1440px;
+    flex-direction: column;
+    flex: 0 auto;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 5%;
+    padding-right: 0%;
+    display: flex;
+    position: relative;
+    overflow: visible
+}
+
+.testimonial-slider {
+    width: 81%;
+    height: auto;
+    max-width: 1100px;
+    background-color: transparent;
+    margin-bottom: 80px
+}
+
+.testimonial-slide-wrapper {
+    width: 100%;
+    max-width: 1100px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-right: 40px
+}
+
+.left-arrow {
+    width: 52px;
+    height: 52px;
+    border: 1px solid #1179fc;
+    border-radius: 50%;
+    display: none;
+    top: auto;
+    bottom: -45px;
+    left: auto;
+    right: 97px
+}
+
+.right-arrow {
+    width: 52px;
+    height: 52px;
+    border: 1px solid #1179fc;
+    border-radius: 50%;
+    display: none;
+    top: auto;
+    bottom: -45px;
+    left: auto;
+    right: 30px
+}
+
+.testimonial-slide {
+    width: 100%;
+    height: 100%;
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+    justify-content: flex-start;
+    align-items: stretch;
+    padding: 30px;
+    display: flex
+}
+
+.testimonial-image {
+    width: 38%;
+    height: 100%;
+    max-width: 400px;
+    min-height: 400px;
+    background-position: -20px 0;
+    background-size: cover;
+    border-radius: 20px;
+    display: flex;
+    position: relative
+}
+
+.testimonial-text{
+    color: rgba(15,15,15,.65);
+    font-weight: 400;
+    line-height: 1.5;
+}
+.testimonial-text-black{
+    color: #050917;
+    font-weight: 500;
+}
+.testimonial-content {
+    flex-direction: column;
+    flex: 1;
+    align-items: flex-start;
+    display: flex;
+    position: relative
+}
+.person-name{
+    color: rgba(15,15,15,.75);
+}
+.comma-icon {
+    width: 56px;
+    height: 56px;
+    margin-bottom: 24px
+}
+
+.home-testimonial-slider-tex-black {
+    color: #050917;
+    font-weight: 500
+}
+
+.testimonial-person-details {
+    width: 70%;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 56px;
+    display: flex
 }
 
 /* collaspse section  */
@@ -312,7 +454,16 @@ header .navbar-dark .navbar-nav .nav-link:hover {
     right: 0px;
     border-radius: 20px;
 }
-
+.client-section .white-card{
+    padding: 30px;
+}
+.client-section .person-info p{
+    color: rgba(15,15,15,.6);
+    letter-spacing: 0;
+    text-transform: none;
+    align-self: flex-start;
+    margin-bottom: 0px;
+}
 
 /* footer*/
 footer{
@@ -333,6 +484,13 @@ footer .footer-links a{
 }
 /* Media Query */
 
+@media only screen and (min-width: 1200px) {
+    .container{
+    max-width: 1440px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+}
 @media only screen and (max-width: 1200px) {
     .main-heading {
         font-size: 48px;
@@ -342,7 +500,7 @@ footer .footer-links a{
     }
 
     /* .hero-section */
-    .hero-section .main-heading {
+    .hero-section .major-heading  {
         font-size: 85px;
     }
 }
@@ -351,7 +509,7 @@ footer .footer-links a{
         font-size: 17px;
     }
      /* .hero-section */
-     .hero-section .main-heading {
+     .hero-section .major-heading  {
         font-size: 70px;
     }
       /* .collapse-items */
@@ -360,6 +518,10 @@ footer .footer-links a{
     }
       .collapse-items .card-body p{
         font-size: 20px;
+    }
+    .mega-para{
+        font-size: 18px;
+        margin-bottom: 32px;
     }
 
 }
@@ -371,7 +533,7 @@ footer .footer-links a{
         font-size: 16px;
     }
      /* .hero-section */
-     .hero-section .main-heading {
+     .hero-section .major-heading  {
         font-size: 60px;
     }
     /* .collapse-items */
@@ -381,6 +543,19 @@ footer .footer-links a{
       .collapse-items .card-body p{
         font-size: 18px;
     }
+    .mega-para{
+        margin-bottom: 16px;
+        font-size: 14px;
+    }
+    header .navbar-dark .navbar-nav .nav-item{
+        text-align: center;
+    }
+    header .navbar-dark .navbar-nav .nav-link,
+    header .navbar-dark .navbar-nav .nav-link:focus
+    {
+        margin: 0px 15px; 
+    }
+
 }
 @media only screen and (max-width: 576px) {
     .white-card{
@@ -391,7 +566,7 @@ footer .footer-links a{
         font-size: 36px;
     }
      /* .hero-section */
-     .hero-section .main-heading {
+     .hero-section .major-heading  {
         font-size: 45px;
     }
        /* .collapse-items */
@@ -424,7 +599,7 @@ footer .footer-links a{
         font-size: 16px;
     }
      /* .hero-section */
-     .hero-section .main-heading {
+     .hero-section .major-heading  {
         font-size: 35px;
     }
     
