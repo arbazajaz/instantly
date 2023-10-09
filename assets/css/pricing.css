@@ -1,0 +1,159 @@
+
+.subscription .help-center{
+    font-size: 21px;
+    color: rgba(15,15,15,.75);
+}
+.subscription .frequently{
+    font-weight: 600;
+}
+.subscription .card{
+    border-radius: 12px;
+}
+.subscription .card .really{
+    font-weight: 500;
+    font-size: 24px;
+    line-height:1.5 ;
+    color: black;
+ }
+ .subscription a{
+    text-decoration: none;
+ }
+ .subscription .yes{
+    font-size: 21px;
+    line-height:1.5;
+    color: rgba(15,15,15,.75);
+ }
+ .subscription .center{
+    align-items: center;
+ }
+ .subscription .bxs-chevron-down:before {
+    font-size: 30px;
+    content: "\ed35";
+    font-weight: normal;
+    color: black;
+    text-decoration: none;
+}
+
+/* section 2 */
+
+.Growth .row{
+    grid-row-gap: 24px;
+    display: flex;
+}
+.Growth .Leads-card{
+    font-size: 27px;
+    font-weight: 500;
+}
+.Growth .two-card{
+    min-height: 650px;
+    border-radius: 23px;
+}
+.Growth .dollar{
+    font-size: 56px;
+    font-weight: 600px;
+}
+.Growth .mo{
+    font-size: 23px;
+}
+.Growth .started{
+    width: 100%;
+    text-align: center;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    font-size: 18px;
+    color:#1179fc ;
+    border: 1px solid #1179fc;
+    font-weight: 700;
+    transition: color .2s,background-color .2s;
+    box-shadow: 1px 1px 80px rgba(17,121,252,.15);
+    line-height: 100%; 
+}
+.Growth .number-2{
+    width: 100%;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    font-size: 18px;
+    color:white ;
+    background-color: #1179fc;
+    font-weight: 700;
+    line-height: 100%;
+    transition: color .2s,background-color .2s;
+    box-shadow: 1px 1px 80px rgba(17,121,252,.15);
+}
+.Growth .number-2:hover{
+    background-color:#dc82fc;
+}
+.Growth .started:hover{
+    background-color:#dc82fc;
+    color: white;
+    border: 1px solid #dc82fc;
+}
+.Growth .leads  {
+    align-items: center;
+    grid-column-gap: 16px;
+}
+.Growth .paragraph{
+    opacity: .75;
+    color: #0f0f0f
+}
+.Growth .im{
+    max-width: 20%;
+}
+.Growth .good{
+    font-size: 23px;
+}
+
+        /* get started for free */
+.emial-container{
+max-width: 93%;
+}
+.email-card{
+    background-color: whitesmoke;
+    padding: 80px 45px;
+    padding-bottom: 0px;
+    border-radius: 30px;
+}    
+.email-section .for-free{
+font-size: 4.5rem;
+font-weight: 600;
+}
+.email-section .out-reach{
+    align-items: center;
+}
+.email-section .send{
+    color: rgba(5,9,23,.75);
+    font-size: 20px;
+    text-align: center;
+    font-weight: 500;
+}
+.email-section .number-2{
+    width: 100%;
+    letter-spacing: 2px;
+    border-radius: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 18px;
+    color:white ;
+    background-color: #1179fc;
+    font-weight: 700;
+    line-height: 100%;
+    transition: color .2s,background-color .2s;
+    box-shadow: 1px 1px 80px rgba(17,121,252,.15);
+}
+.email-section .number-2:hover{
+    background-color:#dc82fc;
+}
+.email-section .even{
+    justify-content: space-evenly;
+    align-items: center;
+}
+/* .email-section .thirty{
+    max-width: 31%;
+} */
+.email-section .email-account{
+    margin-top: 90px;
+}
