@@ -34,6 +34,7 @@
     background-attachment: scroll;
     max-width: 100%;
     min-height: auto;
+    padding-top: 50px;
 
 }
 
@@ -121,6 +122,46 @@
 .filters p.main-para{
     color: black !important;
 }
+/* leads-collapse */
+.leads-collapse .card{
+    border-radius: 20px;
+}
+.leads-collapse .plus{
+    width: 60px;
+    height: 60px;
+    background-color: #f6f8fb;
+    border-radius: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: background-color .2s;
+    display: flex;
+}
+.leads-collapse .plus:hover{
+    background-color: rgba(17,121,252,.1);
+}
+.leads-collapse p.text-20px {
+    display: none;
+}
+.move-plus{
+    transition: transform 0.9s;
+    transform: rotate(48deg); /* Rotate the image by 90 degrees (clockwise) */
+  }
+  .original-plus {
+    transition: transform 0.5s; /* Add a transition for smooth rotation */
+  }
+  /* faq */
+  .faq{
+    padding-top: 60px;
+  }
+  .faq .click {
+    color: black;
+    font-size: 28px;
+    font-weight: 500;
+  }
+  .faq .card-body {
+    min-height: 80px;
+}
 @media only screen and (max-width: 1200px) {
    
 
@@ -147,6 +188,9 @@
      .database .text-20px{
         font-size:18px;
     }
+    .click .text-48px, .filters .text-48px {
+        font-size: 40px;
+    }
 
 }
 @media only screen and (max-width: 576px) {
@@ -156,6 +200,19 @@
     }
      .database .text-20px{
         font-size:15px;
+    }
+    .click .text-48px, .filters .text-48px {
+        font-size: 30px;
+    }
+    /* .leads-collapse */
+    .leads-collapse .text-40px{
+        font-size: 30px;
+    }
+    .leads-collapse .text-20px{
+        font-size: 15px;
+    }
+    .faq .click {
+        font-size: 23px;
     }
 
 }
