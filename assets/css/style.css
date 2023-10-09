@@ -463,6 +463,9 @@ header .navbar-dark .navbar-nav .nav-link:hover {
     align-self: flex-start;
     margin-bottom: 0px;
 }
+.client-section .person-info h5{
+   font-size: 17px;
+}
 
 /* footer*/
 footer{

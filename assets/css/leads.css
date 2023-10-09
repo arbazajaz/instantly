@@ -4,9 +4,13 @@
     padding-right: 5%;
 }
 
-.text-56px {
-    color: #fff;
+.text-56px{
     font-size: 56px;
+    font-weight: 600;
+
+}
+.text-48px{
+    font-size: 48px;
     font-weight: 600;
 
 }
@@ -24,13 +28,12 @@
 }
 
 .database {
-    background-image: url('../images/database/bg-image.jpg');
     background-position: 50% 0;
     background-repeat: no-repeat;
     background-size: 100% 1000px;
     background-attachment: scroll;
     max-width: 100%;
-    min-height: 1000px;
+    min-height: auto;
 
 }
 
@@ -88,12 +91,52 @@
     position: relative;
 
 }
+.database .mb-140px{
+    margin-bottom: 140px;
+}
+.database .text-40px{
+    color: rgba(255,255,255,.65);
+}
+.database .client-section .see-more {
+    background: transparent;
+    border: 1px solid #1179fc;
+    color: #1179fc;
+}
+.database .client-section .see-more:hover{
+    background-color: #dc82fc ;
+    border: 1px #dc82fc;
+    color: #fff;
+}
+/* click */
+.click img{
+   border-radius: 20px;
+    box-shadow: 11px 11px 90px rgba(5,9,23,.1);
+}
+.click .text-48px ,
+.filters .text-48px{
+    color: rgba(15,15,15,.65);
+    margin-bottom: 24px;
+}
+.click p.main-para,
+.filters p.main-para{
+    color: black !important;
+}
 @media only screen and (max-width: 1200px) {
    
 
     
 }
 @media only screen and (max-width: 992px) {
+    /* database */
+    .database .mb-140px {
+        margin-bottom: 25px;
+    }
+    .database .text-40px{
+        color: rgba(15,15,15,.65);
+    }
+    .database .text-40px span{
+        color: black !important;
+    }
 
 }
 @media only screen and (max-width: 768px) {
