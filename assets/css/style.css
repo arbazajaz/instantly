@@ -236,7 +236,6 @@ header .navbar-dark .navbar-nav .nav-link:hover {
 
 /* hero-section  */
 .hero-section{
-    color: white;
     text-align: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -490,6 +489,9 @@ footer .footer-links a{
     padding-left: 5%;
     padding-right: 5%;
 }
+    .main-heading.hero-heading{
+        font-size: 56px;
+    }
 }
 @media only screen and (max-width: 1200px) {
     .main-heading {
