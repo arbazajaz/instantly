@@ -77,14 +77,8 @@
 
 @media only screen and (max-width: 992px) {
     /* .about-hero */
-    .about-hero .text-72px{
-        font-size: 54px;
-    }
     .about-hero .m-botton84 {
         margin-bottom: 26px;
-    }
-    .about-hero .text-20px{
-        font-size: 18px;
     }
     .about-hero .about-value h1 {
         font-size: 38px;
@@ -92,22 +86,12 @@
 
 }
 @media only screen and (max-width: 768px) {
-    /* .about-hero */
-    .about-hero .text-72px{
-        font-size: 44px;
-    }
     .our-team .timing {
         flex-direction: column;
     }
 }
 @media only screen and (max-width: 576px) {
-    /* .about-hero */
-    .about-hero .text-72px{
-        font-size: 36px;
-    }
-    .about-hero .text-20px{
-        font-size: 17px;
-    }
+
     /* .empowering */
     .empowering h1 {
         font-size: 35px;

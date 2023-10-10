@@ -122,10 +122,11 @@
   .original-plus {
     transition: transform 0.5s;
   }
-  /* faq */
-  .faq{
-    padding-top: 60px;
+  /* prospects */
+  .prospects{
+    padding: 90px 0px;
   }
+  /* faq */
   .faq .click {
     color: black;
     font-size: 28px;
@@ -144,47 +145,28 @@
     .database .mb-140px {
         margin-bottom: 25px;
     }
+   
     .database .text-40px{
         color: rgba(15,15,15,.65);
     }
     .database .text-40px span{
         color: black !important;
     }
+   
 
 }
 @media only screen and (max-width: 768px) {
-     /* database */
-     .database .text-56px{
-        font-size:40px;
-    }
-     .database .text-20px{
-        font-size:18px;
-    }
-    .click .text-48px, .filters .text-48px {
-        font-size: 40px;
-    }
+    
 
 }
 @media only screen and (max-width: 576px) {
-     /* database */
-     .database .text-56px{
-        font-size:34px;
-    }
-     .database .text-20px{
-        font-size:15px;
-    }
-    .click .text-48px, .filters .text-48px {
-        font-size: 30px;
-    }
-    /* .leads-collapse */
-    .leads-collapse .text-40px{
-        font-size: 30px;
-    }
-    .leads-collapse .text-20px{
-        font-size: 15px;
-    }
+ 
+    /* faq */
     .faq .click{
-        font-size: 23px;
+        font-size: 20px;
+    }
+    .faq .card-body p{
+        font-size: 18px;
     }
 
 }

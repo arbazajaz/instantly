@@ -550,6 +550,15 @@ footer .footer-links a{
     }
 }
 @media only screen and (max-width: 992px) {
+    .text-72px{
+        font-size: 54px;
+    }
+    .text-40px{
+        font-size: 35px;
+    }
+
+
+
     .main-para {
         font-size: 17px;
     }
@@ -571,6 +580,22 @@ footer .footer-links a{
 
 }
 @media only screen and (max-width: 768px) {
+
+    .text-72px{
+        font-size: 42px;
+    }
+     .text-56px{
+        font-size:40px;
+    }
+    .text-48px {
+        font-size: 40px;
+    }
+    .text-40px{
+        font-size: 30px;
+    }
+     .text-20px{
+        font-size:17px;
+    }
     .main-heading {
         font-size: 42px;
     }
@@ -603,6 +628,19 @@ footer .footer-links a{
 
 }
 @media only screen and (max-width: 576px) {
+    .text-72px{
+        font-size: 36px;
+    }
+     .text-56px{
+        font-size:38px;
+    }
+    .text-48px {
+        font-size: 30px;
+    }
+     .text-20px{
+        font-size:15px;
+    }
+
     .white-card{
         margin: 10px;
         padding: 40px;
