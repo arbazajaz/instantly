@@ -1,9 +1,4 @@
-.about-hero .container,
-.empowering .container{
-    max-width: 1440px;
-    padding-left: 5%;
-    padding-right: 5%;
-}
+
 .about-hero{
     background-image: url('../images/about/bg-image.jpg');
     background-size: cover;
@@ -11,17 +6,6 @@
     background-repeat: no-repeat;
     max-width: 100%;
     min-height: 1000px;
-}
-
-
-.about-hero h1.main-heading,
-.get-started h1.main-heading{
-    font-size: 72px;
-}
-p.about-para{
-    font-size: 20px;
-    font-weight: 400px;
-    line-height: 1.6;
 }
 .about-hero .m-botton84{
     margin-bottom: 84px;
@@ -35,33 +19,26 @@ p.about-para{
     border-radius: 20px;
     padding: 40px 32px;
 }
-.about-hero h1.about-value-title{
-    font-size: 56px;
-    font-weight: 600;
-    line-height: 1;
-}
 /* cold-email */
-.empowering h1{
+.empowering .text-48px{
     color: rgb(96, 97, 98) !important;
-    font-weight: 500;
-    font-size: 48px;
 }
-.empowering h1 span{
+.empowering .text-48px span{
     color: #0f0f0f;
     font-weight: 600;
 }
-p.about-para{
+.about-hero .text-20px{
     color: #0f0f0f;
 }
 /* our-team */
 .our-team{
     padding: 50px 0px;
 }
-.our-team .about-para{
+.our-team .text-20px{
     max-width: 476px;
+    margin-bottom: 50px;
 }
-.our-team h4{
-    font-size: 40px;
+.our-team h4.text-40px{
     font-weight: 600;
 }
 .our-team .timing{
@@ -100,14 +77,8 @@ p.about-para{
 
 @media only screen and (max-width: 992px) {
     /* .about-hero */
-    .about-hero h1.main-heading{
-        font-size: 54px;
-    }
     .about-hero .m-botton84 {
         margin-bottom: 26px;
-    }
-    p.about-para{
-        font-size: 18px;
     }
     .about-hero .about-value h1 {
         font-size: 38px;
@@ -115,22 +86,12 @@ p.about-para{
 
 }
 @media only screen and (max-width: 768px) {
-    /* .about-hero */
-    .about-hero h1.main-heading{
-        font-size: 44px;
-    }
     .our-team .timing {
         flex-direction: column;
     }
 }
 @media only screen and (max-width: 576px) {
-    /* .about-hero */
-    .about-hero h1.main-heading{
-        font-size: 36px;
-    }
-    p.about-para{
-        font-size: 17px;
-    }
+
     /* .empowering */
     .empowering h1 {
         font-size: 35px;

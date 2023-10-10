@@ -141,6 +141,33 @@ img {
 .text-danger{
     color: rgba(15,15,15,.65);
 }
+.text-72px{
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 1.14;
+}
+.text-56px{
+    font-size: 56px;
+    font-weight: 600;
+
+}
+.text-48px{
+    font-size: 48px;
+    font-weight: 600;
+
+}
+.text-40px{
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: -1px;
+    line-height: 1.16;
+}
+
+.text-20px {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.6;
+}
 
 .main-heading {
     color: #0f0f0f;
@@ -372,22 +399,29 @@ header .navbar-dark .navbar-nav .nav-link:hover {
 }
 
 /* collaspse section  */
-.collapse-items .title{
+.collapse-items .title,
+.faq .title{
     min-height: 120px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.collapse-items .card{
+.collapse-items .card,
+.faq .card
+{
     border: none;
     border-radius: 20px;
     margin-bottom: 40px;
 }
-.collapse-items .card .card-header{
+.collapse-items .card .card-header,
+.faq .card .card-header
+{
   border-radius: 20px;
   border-bottom: none;
 }
-.collapse-items .click{
+.collapse-items .click,
+.faq .click
+{
     color: rgba(15,15,15,.65);
     font-size: 35px;
     font-weight: 600;
@@ -395,7 +429,9 @@ header .navbar-dark .navbar-nav .nav-link:hover {
 .collapse-items .card-body{
     min-height: 400px;
 }
-.collapse-items .seperator {
+.collapse-items .seperator,
+.faq .seperator
+ {
     width: 100%;
     height: 1px;
     opacity: .25;
@@ -405,16 +441,20 @@ header .navbar-dark .navbar-nav .nav-link:hover {
 .collapse-items .click span{
    color: #222;
 }
-.collapse-items .card-body p{
+.collapse-items .card-body p,
+.faq .card-body p
+{
     font-size: 24px;
     font-weight: 400;
     line-height: 1.5;
 }
-.collapse-items .click-img{
+.collapse-items .click-img,
+.faq .click-img
+{
     cursor: pointer;
     width: 60px;
     height: 60px;
-    background-color: #f6f8fb;
+    background-color: rgba(17,121,252,.1);
     border-radius: 50%;
     flex-direction: column;
     flex: none;
@@ -510,6 +550,15 @@ footer .footer-links a{
     }
 }
 @media only screen and (max-width: 992px) {
+    .text-72px{
+        font-size: 54px;
+    }
+    .text-40px{
+        font-size: 35px;
+    }
+
+
+
     .main-para {
         font-size: 17px;
     }
@@ -531,6 +580,22 @@ footer .footer-links a{
 
 }
 @media only screen and (max-width: 768px) {
+
+    .text-72px{
+        font-size: 42px;
+    }
+     .text-56px{
+        font-size:40px;
+    }
+    .text-48px {
+        font-size: 40px;
+    }
+    .text-40px{
+        font-size: 30px;
+    }
+     .text-20px{
+        font-size:17px;
+    }
     .main-heading {
         font-size: 42px;
     }
@@ -563,6 +628,19 @@ footer .footer-links a{
 
 }
 @media only screen and (max-width: 576px) {
+    .text-72px{
+        font-size: 36px;
+    }
+     .text-56px{
+        font-size:38px;
+    }
+    .text-48px {
+        font-size: 30px;
+    }
+     .text-20px{
+        font-size:15px;
+    }
+
     .white-card{
         margin: 10px;
         padding: 40px;
