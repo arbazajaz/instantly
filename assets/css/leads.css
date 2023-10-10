@@ -80,6 +80,24 @@
     border: 1px #dc82fc;
     color: #fff;
 }
+/* only-pay */
+.only-pay .text-20px{
+    max-width: 490px;
+}
+.only-pay .row{
+    min-height: 510px;
+    border-radius: 15px;
+}
+.only-pay .free{
+    background-color: white;
+    border: 1px solid white;
+    color: #1179fc;
+}
+.only-pay .free:hover{
+  color: white;
+    background-color: #dc82fc;
+    box-shadow: 0 0 80px rgba(139,190,255,.15)
+}
 /* click */
 .click img{
    border-radius: 20px;
