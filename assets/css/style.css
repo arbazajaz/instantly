@@ -50,11 +50,6 @@ body {
     font-size: 16px;
     line-height: 120%;
 }
-.container{
-    max-width: 1440px;
-    padding-left: 5%;
-    padding-right: 5%;
-}
 
 section{
     padding: 20px 0px;
