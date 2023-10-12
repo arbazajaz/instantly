@@ -15,6 +15,7 @@
   <!-- Stylesheet -->
   <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
   <link type="text/css" rel="stylesheet" href="assets/css/style.css" />
+  <link type="text/css" rel="stylesheet" href="assets/css/leads.css" />
   <link rel="stylesheet" href="assets/css/pricing.css">
   <!-- font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.0/css/font-awesome.css">
@@ -74,72 +75,600 @@
   </header>
   <main>
 
-    <section class="subscription">
+    <section class="hero-section text-left" style="background-image: url('assets/images/database/bg-image.jpg');">
       <div class="container">
-        <div class="row">
-          <div class="col-12 mb-5 mt-5">
-            <h1 class="frequently text-center">Frequently asked questions</h1>
-            <p class="text-center help-center mt-4">Can’t find the answer here? Check out our help center.
-            </p>
+
+        <div class="row justify-content-center text-center">
+          <div class="col-12 mt-5">
+            <h1 class="heading-main text-white">Simple pricing for everyone</h1>
+            <p class="mt-5 pricing-para text-white">Pricing built for businesses of all sizes. Always know what you’ll pay.</p>
           </div>
         </div>
-        <div class="row">
-          <div class="col-6">
-            <div class="card p-4 border-0">
-              <div class="accordion" id="accordionExample">
-                <div class="card border-0">
-                  <div class="card-header border-0 bg-transparent p-0" id="headingOne">
-                    <h2 class="mb-0">
-                      <button class="btn-trans btn-block text-left p-0 text-decoration-none" type="button"
-                        data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
-                        aria-controls="collapseOne">
-                        <!-- Collapsible Group Item #1 -->
-                        <div class="justify-content-between d-flex center">
-                          <p class="mb-0 d-inline really">Can I really connect and warm up<br> unlimited accounts with
-                            one<br> subscription?</p>
-                          <i class='bx bxs-chevron-down'></i>
-                        </div>
-                      </button>
-                    </h2>
-                  </div>
+        
+        
+        <div class="row growth-ev mt-5 justify-content-center">
+          <!-- main Sending & Warmup and leads  -->
+          <div class="col-12">
+            
+            <div class="row justify-content-center">
+              <div class="col-lg-6">
+                <ul class="nav nav-pills mb-3 bg-white" id="pills-tab" role="tablist">
+                  <li class="nav-item col-6 p-0" role="presentation">
+                    <button class="nav-link btn-block main-para mb-0 active" id="pills_warmup-tab" data-toggle="pill" data-target="#pills_warmup" type="button" role="tab" aria-controls="pills_warmup" aria-selected="true"><i class="fa fa-envelope"></i> &nbsp; Sending & Warmup</button>
+                  </li>
+                  <li class="nav-item col-6 p-0" role="presentation">
+                    <button class="nav-link btn-block main-para mb-0" id="pills_leads-tab" data-toggle="pill" data-target="#pills_leads" type="button" role="tab" aria-controls="pills_leads" aria-selected="false"><i class="fa fa-users"></i> &nbsp; Leads</button>
+                  </li>
+                </ul>
+              </div>
+            </div>
 
-                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
-                    data-parent="#accordionExample">
-                    <div class="card-body p-0">
-                      <p class="yes mt-4">Yes! You can connect and warm <br>as many accounts as you need<br> from any
-                        provider.</p>
+
+
+            <div class="tab-content" id="pills-tabContent">
+              <!-- pills_warmup -->
+              <div class="tab-pane fade show active" id="pills_warmup" role="tabpanel" aria-labelledby="pills_warmup-tab">
+                <div class="row justify-content-center">
+                            <!-- monthly and yearly inner  -->
+          <div class="col-12">
+            <div class="row justify-content-center">
+              <div class="col-lg-4">
+                <ul class="nav nav-tabs justify-content-center mb-3 border-0" id="myTab" role="tablist">
+                  <li class="nav-item m-1" role="presentation">
+                    <button class="nav-link main-para active" id="monthly_mail-tab" data-toggle="tab" data-target="#monthly_mail" type="button" role="tab" aria-controls="monthly_mail" aria-selected="true">Monthly</button>
+                  </li>
+                  <li class="nav-item m-1" role="presentation">
+                    <button class="nav-link main-para" id="yearly_mail-tab" data-toggle="tab" data-target="#yearly_mail" type="button" role="tab" aria-controls="yearly_mail" aria-selected="false">Yearly &nbsp;<span class="badge badge-light rounded">Save 20%</span></button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-12 col-lg-8">
+            <div class="tab-content" id="GrowthContent">
+
+              <!-- monthly mail sending mail and warmup -->
+              <div class="tab-pane fade show active" id="monthly_mail" role="tabpanel" aria-labelledby="monthly_mail-tab">
+                <div class="row">
+                  <div class="col-lg-6 col-md-5 col-sm-12">
+
+                    <div class="card pricing-card p-4 border-0">
+                      <i class="fa fa-plane icon"></i>
+                      <!-- <i class="fa fa-plane" aria-hidden="true"></i> -->
+                      <h5 class="mini-heading pt-4">Growth Leads</h5>
+        
+                      <div class="mt-4 cent">
+                        <h4 class="main-heading dollar bla">$47
+                        <span class="mega-para font-weight-bold">/mo</span></h4>
+        
+                        <div class="mt-5">
+                          <button type="button" class="btn btn-primary btn-transparent btn-block py-3">START FOR FREE</button>
+                        </div>
+        
+                      </div>
+                      <div class="mt-4 ">
+                        <div class="mt-4 d-flex num leads">
+                          <p><i class="fa fa-check ml-2" aria-hidden="true"></i> Unlimited Email Account</p>
+                        </div>
+                        <div class="mt-3 d-flex num leads">
+                          <p><i class="fa fa-check ml-2" aria-hidden="true"></i> Unlimited Email Warmup</p>
+                        </div>
+                        <div class="mt-3 d-flex num leads">
+                          <p><i class="fa fa-check ml-2" aria-hidden="true"></i>1000 Active Leads</p>
+                        </div>
+                        <div class="mt-3 d-flex num leads">
+                          <p><i class="fa fa-check ml-2" aria-hidden="true"></i> 5000 Emails Monthly</p>
+                        </div>
+                        <div class="mt-3 d-flex num leads">
+                          <p><i class="fa fa-check ml-2" aria-hidden="true"></i> Live Chat Support</p>
+                        </div>
+        
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-5 col-sm-12">
+
+                    <div class="card pricing-card p-4 border-0">
+                      <i class="fa fa-plane icon"></i>
+                      <!-- <i class="fa fa-plane" aria-hidden="true"></i> -->
+                      <h5 class="mini-heading pt-4">Growth Leads</h5>
+        
+                      <div class="mt-4 cent">
+                        <h4 class="main-heading dollar bla">$47
+                        <span class="mega-para font-weight-bold">/mo</span></h4>
+        
+                        <div class="mt-5">
+                          <button type="button" class="btn btn-primary btn-transparent btn-block py-3">START FOR FREE</button>
+                        </div>
+        
+                      </div>
+                      <div class="mt-4 ">
+                        <div class="mt-4 d-flex num leads">
+                          <p><i class="fa fa-check ml-2" aria-hidden="true"></i> Unlimited Email Account</p>
+                        </div>
+                        <div class="mt-3 d-flex num leads">
+                          <p><i class="fa fa-check ml-2" aria-hidden="true"></i> Unlimited Email Warmup</p>
+                        </div>
+                        <div class="mt-3 d-flex num leads">
+                          <p><i class="fa fa-check ml-2" aria-hidden="true"></i>1000 Active Leads</p>
+                        </div>
+                        <div class="mt-3 d-flex num leads">
+                          <p><i class="fa fa-check ml-2" aria-hidden="true"></i> 5000 Emails Monthly</p>
+                        </div>
+                        <div class="mt-3 d-flex num leads">
+                          <p><i class="fa fa-check ml-2" aria-hidden="true"></i> Live Chat Support</p>
+                        </div>
+        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="yearly_mail" role="tabpanel" aria-labelledby="yearly_mail-tab">
+                <div class="row">
+                  <div class="col-lg-6 col-md-5 col-sm-12">
+
+                    <div class="card pricing-card p-4 border-0">
+                      <i class="fa fa-plane icon"></i>
+                      <!-- <i class="fa fa-plane" aria-hidden="true"></i> -->
+                      <h5 class="mini-heading pt-4">Growth Leads</h5>
+        
+                      <div class="mt-4 cent">
+                        <h4 class="main-heading dollar bla">$47
+                        <span class="mega-para font-weight-bold">/mo</span></h4>
+        
+                        <div class="mt-5">
+                          <button type="button" class="btn btn-primary btn-transparent btn-block py-3">START FOR FREE</button>
+                        </div>
+        
+                      </div>
+                      <div class="mt-4 ">
+                        <div class="mt-4 d-flex num leads">
+                          <p><i class="fa fa-check ml-2" aria-hidden="true"></i> Unlimited Email Account</p>
+                        </div>
+                        <div class="mt-3 d-flex num leads">
+                          <p><i class="fa fa-check ml-2" aria-hidden="true"></i> Unlimited Email Warmup</p>
+                        </div>
+                        <div class="mt-3 d-flex num leads">
+                          <p><i class="fa fa-check ml-2" aria-hidden="true"></i>1000 Active Leads</p>
+                        </div>
+                        <div class="mt-3 d-flex num leads">
+                          <p><i class="fa fa-check ml-2" aria-hidden="true"></i> 5000 Emails Monthly</p>
+                        </div>
+                        <div class="mt-3 d-flex num leads">
+                          <p><i class="fa fa-check ml-2" aria-hidden="true"></i> Live Chat Support</p>
+                        </div>
+        
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-5 col-sm-12">
+
+                    <div class="card pricing-card p-4 border-0">
+                      <i class="fa fa-plane icon"></i>
+                      <!-- <i class="fa fa-plane" aria-hidden="true"></i> -->
+                      <h5 class="mini-heading pt-4">Growth Leads</h5>
+        
+                      <div class="mt-4 cent">
+                        <h4 class="main-heading dollar bla">$47
+                        <span class="mega-para font-weight-bold">/mo</span></h4>
+        
+                        <div class="mt-5">
+                          <button type="button" class="btn btn-primary btn-transparent btn-block py-3">START FOR FREE</button>
+                        </div>
+        
+                      </div>
+                      <div class="mt-4 ">
+                        <div class="mt-4 d-flex num leads">
+                          <p><i class="fa fa-check ml-2" aria-hidden="true"></i> Unlimited Email Account</p>
+                        </div>
+                        <div class="mt-3 d-flex num leads">
+                          <p><i class="fa fa-check ml-2" aria-hidden="true"></i> Unlimited Email Warmup</p>
+                        </div>
+                        <div class="mt-3 d-flex num leads">
+                          <p><i class="fa fa-check ml-2" aria-hidden="true"></i>1000 Active Leads</p>
+                        </div>
+                        <div class="mt-3 d-flex num leads">
+                          <p><i class="fa fa-check ml-2" aria-hidden="true"></i> 5000 Emails Monthly</p>
+                        </div>
+                        <div class="mt-3 d-flex num leads">
+                          <p><i class="fa fa-check ml-2" aria-hidden="true"></i> Live Chat Support</p>
+                        </div>
+        
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-6">
-            <div class="card p-4 border-0">
-              <div class="accordion" id="accordionExample">
-                <div class="card border-0">
-                  <div class="card-header border-0 bg-transparent p-0" id="headingOne">
-                    <h2 class="mb-0">
-                      <button class="btn-trans btn-block text-left p-0 text-decoration-none" type="button"
-                        data-toggle="collapse" data-target="#collapsetwo" aria-expanded="true"
-                        aria-controls="collapsetwo">
-                        <!-- Collapsible Group Item #1 -->
-                        <div class="justify-content-between d-flex center">
-                          <p class="mb-0 d-inline really">I’ve never done cold emailing before,<br>will this work for
-                            me?</p>
-                          <i class='bx bxs-chevron-down'></i>
-                        </div>
-                      </button>
-                    </h2>
-                  </div>
 
-                  <div id="collapsetwo" class="collapse show" aria-labelledby="headingOne"
-                    data-parent="#accordionExample">
-                    <div class="card-body p-0">
-                      <p class="yes mt-4">Absolutely, we’ve even<br>prepared a full<br>step-by-step tutorial on<br>how
-                        we launch our<br>campaigns.</p>
+                </div>
+              </div>
+
+              <!-- pills_leads -->
+              <div class="tab-pane fade" id="pills_leads" role="tabpanel" aria-labelledby="pills_leads-tab">
+                <div class="row justify-content-center">
+                  <!-- monthly and yearly inner  -->
+                    <div class="col-12">
+                      <div class="row justify-content-center">
+                        <div class="col-lg-4">
+                          <ul class="nav nav-tabs justify-content-center mb-3 border-0" id="myTab" role="tablist">
+                            <li class="nav-item m-1" role="presentation">
+                              <button class="nav-link main-para active" id="monthly_leads-tab" data-toggle="tab" data-target="#monthly_leads" type="button" role="tab" aria-controls="monthly_leads" aria-selected="true">Monthly</button>
+                            </li>
+                            <li class="nav-item m-1" role="presentation">
+                              <button class="nav-link main-para" id="yearly_leads-tab" data-toggle="tab" data-target="#yearly_leads" type="button" role="tab" aria-controls="yearly_leads" aria-selected="false">Yearly &nbsp;<span class="badge badge-light rounded">Save 20%</span></button>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
                     </div>
-                  </div>
+
+                    <div class="col-12 col-lg-8">
+                      <div class="tab-content" id="GrowthContent">
+
+                        <!-- monthly mail sending mail and warmup -->
+                        <div class="tab-pane fade show active" id="monthly_leads" role="tabpanel" aria-labelledby="monthly_mail-tab">
+                          <div class="row">
+                            <div class="col-lg-6 col-md-5 col-sm-12">
+
+                              <div class="card pricing-card p-4 border-0">
+                                <i class="fa fa-plane icon"></i>
+                                <!-- <i class="fa fa-plane" aria-hidden="true"></i> -->
+                                <h5 class="mini-heading pt-4">Growth Leads</h5>
+
+                                <div class="mt-4 cent">
+                                  <h4 class="main-heading dollar bla">$47
+                                  <span class="mega-para font-weight-bold">/mo</span></h4>
+
+                                  <div class="mt-5">
+                                    <button type="button" class="btn btn-primary btn-transparent btn-block py-3">START FOR FREE</button>
+                                  </div>
+
+                                </div>
+                                <div class="mt-4 ">
+                                  <div class="mt-4 d-flex num leads">
+                                    <p><i class="fa fa-check ml-2" aria-hidden="true"></i> Unlimited Email Account</p>
+                                  </div>
+                                  <div class="mt-3 d-flex num leads">
+                                    <p><i class="fa fa-check ml-2" aria-hidden="true"></i> Unlimited Email Warmup</p>
+                                  </div>
+                                  <div class="mt-3 d-flex num leads">
+                                    <p><i class="fa fa-check ml-2" aria-hidden="true"></i>1000 Active Leads</p>
+                                  </div>
+                                  <div class="mt-3 d-flex num leads">
+                                    <p><i class="fa fa-check ml-2" aria-hidden="true"></i> 5000 Emails Monthly</p>
+                                  </div>
+                                  <div class="mt-3 d-flex num leads">
+                                    <p><i class="fa fa-check ml-2" aria-hidden="true"></i> Live Chat Support</p>
+                                  </div>
+
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-lg-6 col-md-5 col-sm-12">
+
+                              <div class="card pricing-card p-4 border-0">
+                                <i class="fa fa-plane icon"></i>
+                                <!-- <i class="fa fa-plane" aria-hidden="true"></i> -->
+                                <h5 class="mini-heading pt-4">Growth Leads</h5>
+
+                                <div class="mt-4 cent">
+                                  <h4 class="main-heading dollar bla">$47
+                                  <span class="mega-para font-weight-bold">/mo</span></h4>
+
+                                  <div class="mt-5">
+                                    <button type="button" class="btn btn-primary btn-transparent btn-block py-3">START FOR FREE</button>
+                                  </div>
+
+                                </div>
+                                <div class="mt-4 ">
+                                  <div class="mt-4 d-flex num leads">
+                                    <p><i class="fa fa-check ml-2" aria-hidden="true"></i> Unlimited Email Account</p>
+                                  </div>
+                                  <div class="mt-3 d-flex num leads">
+                                    <p><i class="fa fa-check ml-2" aria-hidden="true"></i> Unlimited Email Warmup</p>
+                                  </div>
+                                  <div class="mt-3 d-flex num leads">
+                                    <p><i class="fa fa-check ml-2" aria-hidden="true"></i>1000 Active Leads</p>
+                                  </div>
+                                  <div class="mt-3 d-flex num leads">
+                                    <p><i class="fa fa-check ml-2" aria-hidden="true"></i> 5000 Emails Monthly</p>
+                                  </div>
+                                  <div class="mt-3 d-flex num leads">
+                                    <p><i class="fa fa-check ml-2" aria-hidden="true"></i> Live Chat Support</p>
+                                  </div>
+
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- yearly_leads -->
+                        <div class="tab-pane fade" id="yearly_leads" role="tabpanel" aria-labelledby="yearly_leads-tab">
+                          <div class="row">
+                            <div class="col-lg-6 col-md-5 col-sm-12">
+
+                              <div class="card pricing-card p-4 border-0">
+                                <i class="fa fa-plane icon"></i>
+                                <!-- <i class="fa fa-plane" aria-hidden="true"></i> -->
+                                <h5 class="mini-heading pt-4">Growth Leads</h5>
+
+                                <div class="mt-4 cent">
+                                  <h4 class="main-heading dollar bla">$47
+                                  <span class="mega-para font-weight-bold">/mo</span></h4>
+
+                                  <div class="mt-5">
+                                    <button type="button" class="btn btn-primary btn-transparent btn-block py-3">START FOR FREE</button>
+                                  </div>
+
+                                </div>
+                                <div class="mt-4 ">
+                                  <div class="mt-4 d-flex num leads">
+                                    <p><i class="fa fa-check ml-2" aria-hidden="true"></i> Unlimited Email Account</p>
+                                  </div>
+                                  <div class="mt-3 d-flex num leads">
+                                    <p><i class="fa fa-check ml-2" aria-hidden="true"></i> Unlimited Email Warmup</p>
+                                  </div>
+                                  <div class="mt-3 d-flex num leads">
+                                    <p><i class="fa fa-check ml-2" aria-hidden="true"></i>1000 Active Leads</p>
+                                  </div>
+                                  <div class="mt-3 d-flex num leads">
+                                    <p><i class="fa fa-check ml-2" aria-hidden="true"></i> 5000 Emails Monthly</p>
+                                  </div>
+                                  <div class="mt-3 d-flex num leads">
+                                    <p><i class="fa fa-check ml-2" aria-hidden="true"></i> Live Chat Support</p>
+                                  </div>
+
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-lg-6 col-md-5 col-sm-12">
+
+                              <div class="card pricing-card p-4 border-0">
+                                <i class="fa fa-plane icon"></i>
+                                <!-- <i class="fa fa-plane" aria-hidden="true"></i> -->
+                                <h5 class="mini-heading pt-4">Growth Leads</h5>
+
+                                <div class="mt-4 cent">
+                                  <h4 class="main-heading dollar bla">$47
+                                  <span class="mega-para font-weight-bold">/mo</span></h4>
+
+                                  <div class="mt-5">
+                                    <button type="button" class="btn btn-primary btn-transparent btn-block py-3">START FOR FREE</button>
+                                  </div>
+
+                                </div>
+                                <div class="mt-4 ">
+                                  <div class="mt-4 d-flex num leads">
+                                    <p><i class="fa fa-check ml-2" aria-hidden="true"></i> Unlimited Email Account</p>
+                                  </div>
+                                  <div class="mt-3 d-flex num leads">
+                                    <p><i class="fa fa-check ml-2" aria-hidden="true"></i> Unlimited Email Warmup</p>
+                                  </div>
+                                  <div class="mt-3 d-flex num leads">
+                                    <p><i class="fa fa-check ml-2" aria-hidden="true"></i>1000 Active Leads</p>
+                                  </div>
+                                  <div class="mt-3 d-flex num leads">
+                                    <p><i class="fa fa-check ml-2" aria-hidden="true"></i> 5000 Emails Monthly</p>
+                                  </div>
+                                  <div class="mt-3 d-flex num leads">
+                                    <p><i class="fa fa-check ml-2" aria-hidden="true"></i> Live Chat Support</p>
+                                  </div>
+
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+      </div>
+              </div>
+            </div>
+          </div>
+
+
+
+        
+      </div>
+      
+      </div>
+    </section>
+
+
+    <!-- flexible and transparent -->
+
+    <section class="big-table">
+      <div class="container big-container">
+        <div class="row">
+          <div class="col-12 p-0">
+            <div class="card flexible-table">
+              <div class="d-flex justify-content-center">
+                <h1 class="m-heading">Flexible and transparent pricing</h1>
+              </div>
+
+              <div class="d-flex justify-content-center">
+                <p class="built mt-3">Pricing built for businesses of all sizes. Always know what you’ll pay.</p>
+              </div>
+              <div class="ml-auto d-flex hyper">
+                <h5 class="side-grow gro">Growth</h5>
+                <h5 class="side-grow">Hypergrowth</h5>
+              </div>
+
+              <div class="d-flex Basics">
+                <img src="assets/images/left-im.svg" alt="">
+                <h5 class="side-grow d-inline mb-0 ml-3 ">Basics</h5>
+              </div>
+
+              <!-- table -->
+
+              <div class="table-responsive">
+                <table class="table mt-3">
+                  <tbody>
+                    <tr>
+                      <th class="th pt-4 pb-4 ultimate" scope="row">Unlimited email accounts</th>
+                      <td class="pt-4 pb-4 border-left text-center" colspan="2">
+                        <i class="fa fa-check-circle ml-4" aria-hidden="true"></i>
+                      </td>
+                      <td class="pt-4 pb-4 border-left text-center  thick">
+                        <i class="fa fa-check-circle ml-4" aria-hidden="true"></i>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th class="th  pt-4 pb-4 ultimate" scope="row">Unlimited email warmup
+                      </th>
+                      <td class="pt-4 pb-4 border-left text-center" colspan="2"><i class="fa fa-check-circle ml-4"
+                          aria-hidden="true"></i></td>
+                      <td class="pt-4 pb-4 border-left text-center thick"><i class="fa fa-check-circle ml-4"
+                          aria-hidden="true"></i></td>
+                    </tr>
+                    <tr class="border-bottom">
+                      <th class="th pt-4 pb-4 ultimate" scope="row">Advanced warmup capabilities</th>
+                      <td class="pt-4 pb-4 border-left text-center" colspan="2"></td>
+                      <td class="pt-4 pb-4 border-left text-center thick"><i class="fa fa-check-circle ml-4"
+                          aria-hidden="true"></i>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th class="th pt-4 pb-4 ultimate" scope="row">Uploaded contacts</th>
+                      <td class="pt-4 pb-4 border-left text-center" colspan="2"> 1,000
+                      </td>
+                      <td class="pt-4 pb-4 border-left text-center  thick">
+                        25,000
+                      </td>
+                    </tr>
+                    <tr>
+                      <th class="th  pt-4 pb-4 ultimate" scope="row">Emails per month</th>
+                      <td class="pt-4 pb-4 border-left text-center" colspan="2">5,000</td>
+                      <td class="pt-4 pb-4 border-left text-center thick">
+                        100,000</td>
+                    </tr>
+                    <tr class="border-bottom">
+                      <th class="th pt-4 pb-4 ultimate" scope="row">Invite team members</th>
+                      <td class="pt-4 pb-4 border-left text-center" colspan="2"></td>
+                      <td class="pt-4 pb-4 border-left text-center thick"><i class="fa fa-check-circle ml-4"
+                          aria-hidden="true"></i>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <div class="d-flex Basics mt-3">
+                <img src="assets/images/mess.svg" alt="">
+                <h5 class="side-grow d-inline mb-0 ml-3">Email automation features</h5>
+              </div>
+
+              <!-- table 2-->
+
+              <div class="table-responsive">
+                <table class="table mt-4">
+                  <tbody>
+                    <tr>
+                      <th class="th pt-4 pb-4 ultimate" scope="row">Advanced sequences</th>
+                      <td class="pt-4 pb-4 border-left text-center" colspan="2">
+                        <i class="fa fa-check-circle ml-4" aria-hidden="true"></i>
+                      </td>
+                      <td class="pt-4 pb-4 border-left text-center  thick">
+                        <i class="fa fa-check-circle ml-4" aria-hidden="true"></i>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th class="th  pt-4 pb-4 ultimate" scope="row">Advanced scheduling
+                      </th>
+                      <td class="pt-4 pb-4 border-left text-center" colspan="2"><i class="fa fa-check-circle ml-4"
+                          aria-hidden="true"></i></td>
+                      <td class="pt-4 pb-4 border-left text-center thick"><i class="fa fa-check-circle ml-4"
+                          aria-hidden="true"></i></td>
+                    </tr>
+                    <tr>
+                      <th class="th  pt-4 pb-4 ultimate" scope="row">Email & account analytics
+                      </th>
+                      <td class="pt-4 pb-4 border-left text-center" colspan="2"><i class="fa fa-check-circle ml-4"
+                          aria-hidden="true"></i></td>
+                      <td class="pt-4 pb-4 border-left text-center thick"><i class="fa fa-check-circle ml-4"
+                          aria-hidden="true"></i></td>
+                    </tr>
+                    <tr class="border-bottom">
+                      <th class="th pt-4 pb-4 ultimate" scope="row">Global block list
+                      </th>
+                      <td class="pt-4 pb-4 border-left text-center" colspan="2"></td>
+                      <td class="pt-4 pb-4 border-left text-center thick"><i class="fa fa-check-circle ml-4"
+                          aria-hidden="true"></i>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th class="th pt-4 pb-4 ultimate" scope="row">A/Z Testing</th>
+                      <td class="pt-4 pb-4 border-left text-center" colspan="2">
+                      </td>
+                      <td class="pt-4 pb-4 border-left text-center  thick">
+                        <i class="fa fa-check-circle ml-4" aria-hidden="true"></i>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th class="th  pt-4 pb-4 ultimate" scope="row">Reputation protection & bounce detection</th>
+                      <td class="pt-4 pb-4 border-left text-center" colspan="2"><i class="fa fa-check-circle ml-4"
+                          aria-hidden="true"></i></td>
+                      <td class="pt-4 pb-4 border-left text-center thick">
+                        <i class="fa fa-check-circle ml-4" aria-hidden="true"></i>
+                      </td>
+                    </tr>
+                    <tr class="border-bottom">
+                      <th class="th pt-4 pb-4 ultimate" scope="row">API, webhooks, and integrations</th>
+                      <td class="pt-4 pb-4 border-left text-center" colspan="2"></td>
+                      <td class="pt-4 pb-4 border-left text-center thick"><i class="fa fa-check-circle ml-4"
+                          aria-hidden="true"></i>
+                      </td>
+                    </tr>
+                    <tr class="border-bottom">
+                      <th class="th pt-4 pb-4 ultimate" scope="row">Unibox & CRM</th>
+                      <td class="pt-4 pb-4 border-left text-center" colspan="2"></td>
+                      <td class="pt-4 pb-4 border-left text-center thick"><i class="fa fa-check-circle ml-4"
+                          aria-hidden="true"></i>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <div class="d-flex Basics mt-3">
+                <img src="assets/images/support.svg" alt="">
+                <h5 class="side-grow d-inline mb-0 ml-3">Support services</h5>
+              </div>
+
+              <!-- table 3-->
+
+              <div class="table-responsive">
+                <table class="table mt-4">
+                  <tbody>
+                    <tr>
+                      <th class="th pt-4 pb-4 ultimate" scope="row">Advanced sequences</th>
+                      <td class="pt-4 pb-4 border-left text-center" colspan="2">
+                        <i class="fa fa-check-circle ml-4" aria-hidden="true"></i>
+                      </td>
+                      <td class="pt-4 pb-4 border-left text-center  thick">
+                        <i class="fa fa-check-circle ml-4" aria-hidden="true"></i>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th class="th  pt-4 pb-4 ultimate border-bottom" scope="row">Advanced scheduling
+                      </th>
+                      <td class="pt-4 pb-4 border-left text-center border-bottom" colspan="2"><i
+                          class="fa fa-check-circle ml-4" aria-hidden="true"></i></td>
+                      <td class="pt-4 pb-4 border-left text-center thick border-bottom"><i
+                          class="fa fa-check-circle ml-4" aria-hidden="true"></i></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="d-flex mt-5 justify-content-end">
+                <button type="button" id="starone" class="btn btn-outline-primary star">GET STARTED</button>
+                <div class="btn btn-primary star">
+                  GET STARTED
                 </div>
               </div>
             </div>
@@ -148,103 +677,188 @@
       </div>
     </section>
 
-    <!-- 2 cards -->
+        <!-- faq -->
+        <section class="faq">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="text-center text-56px py-5">FAQ</h2>
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <div id="accordion">
+                            <!-- 1 -->
+                            <div class="card">
+                                <div class="card-header bg-white heading-one collapsed" data-toggle="collapse"
+                                    data-target="#collapseOne" aria-controls="collapseOne" aria-expanded="false">
+                                    <div class="title">
+                                        <button class="btn btn-link text-decoration-none click text-left">
+                                            How many leads are in your database?
+                                        </button>
+                                        <div class="click-img">
 
-    <section class="Growth">
-      <div class="container">
-        <div class="row justify-content-center ">
-          <div class="col-4">
+                                            <img src="assets/images/collapse/click-img.svg" alt="not-show"
+                                                class="img_one">
 
-            <div class="card two-card p-4 border-0">
-              <img class="im" src="assets/images/pricing/aer.jfif" alt="">
-              <!-- <i class="fa fa-plane" aria-hidden="true"></i> -->
-              <h5 class="Leads-card mt-4">Growth Leads</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
+                                    data-parent="#accordion" style="">
+                                    <div class="seperator">
 
-              <div class="mt-4">
-                <h4 class="d-inline dollar">$47</h4>
-                <p class="d-inline mo">/mo</p>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="co-12">
+                                                <p class="pl-4">160M and we're adding millions more shortly.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <div class="card">
+                            <div class="card-header bg-white heading-two" data-toggle="collapse"
+                                data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                <div class="title">
+                                    <button class="btn btn-link text-decoration-none click text-left">
+                                        What are the export limits?
+                                    </button>
+                                    <div class="click-img" data-toggle="collapse" data-target="#collapseTwo"
+                                        aria-expanded="true" aria-controls="collapseTwo">
 
-                <div class="mt-5">
-                  <button type="button" class="btn btn-outline started">START FOR FREE</button>
+                                        <img src="assets/images/collapse/click-img.svg" alt="not-show" class="img_two">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                data-parent="#accordion">
+                                <div class="seperator"></div>
+                                <div class="card-body">
+                                    <p class="pl-4">1000/mo with Growth Leads and 10K/mo with Hyperleads. You can always
+                                        get add-ons if you need more.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <div class="card">
+                            <div class="card-header bg-white heading-three" data-toggle="collapse"
+                                data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                                <div class="title">
+                                    <button class="btn btn-link text-decoration-none click text-left">
+                                        Do I need to verify the leads?
+                                    </button>
+                                    <div class="click-img">
+
+                                        <img src="assets/images/collapse/click-img.svg" alt="not-show"
+                                            class="img_Three">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                data-parent="#accordion">
+                                <div class="seperator"></div>
+                                <div class="card-body">
+                                    <div class="row">
+                                        <p class="pl-4">Nope! We verify each lead automatically so you can launch your
+                                            campaigns as fast as possible.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <div class="card">
+                            <div class="card-header bg-white" data-toggle="collapse" data-target="#collapseFour"
+                                aria-expanded="true" aria-controls="collapseFour">
+                                <div class="title">
+                                    <button class="btn btn-link text-decoration-none click text-left">
+                                        What filters can I use?
+                                    </button>
+                                    <div class="click-img">
+
+                                        <img src="assets/images/collapse/click-img.svg" alt="not-show"
+                                            class="img_Three">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="collapseFour" class="collapse" aria-labelledby="headingThree"
+                                data-parent="#accordion">
+                                <div class="seperator"></div>
+                                <div class="card-body">
+                                    <div class="row">
+                                        <p class="pl-4">Everything from Job Position to Technology and Keywords.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <div class="card">
+                            <div class="card-header bg-white" data-toggle="collapse" data-target="#collapseSix"
+                                aria-expanded="true" aria-controls="collapseSix">
+                                <div class="title">
+                                    <button class="btn btn-link text-decoration-none click text-left">
+                                        What is the pricing?
+                                    </button>
+                                    <div class="click-img">
+
+                                        <img src="assets/images/collapse/click-img.svg" alt="not-show"
+                                            class="img_Three">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="collapseSix" class="collapse" aria-labelledby="" data-parent="#accordion">
+                                <div class="seperator"></div>
+                                <div class="card-body">
+                                    <div class="row">
+                                        <p class="pl-4">$47/mo for Growth Leads and $197/mo for Hyperleads.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <div class="card">
+                            <div class="card-header bg-white" data-toggle="collapse" data-target="#collapseFive"
+                                aria-expanded="true" aria-controls="collapseFive">
+                                <div class="title">
+                                    <button class="btn btn-link text-decoration-none click text-left">
+                                        What locations can I search for?
+                                    </button>
+                                    <div class="click-img">
+
+                                        <img src="assets/images/collapse/click-img.svg" alt="not-show"
+                                            class="img_Three">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="collapseFive" class="collapse" aria-labelledby="" data-parent="#accordion">
+                                <div class="seperator"></div>
+                                <div class="card-body">
+                                    <div class="row">
+                                        <p class="p-4">The entire world.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
                 </div>
-
-              </div>
-              <div class="mt-4 ">
-                <div class="mt-4 d-flex num leads">
-                  <img src="assets/images/pricing/thcik.jfif" alt="">
-                  <p class="d-inline mb-0 paragraph">Unlimited Email Accounts</p>
-                </div>
-
-                <div class="mt-4 d-flex leads">
-                  <img src="assets/images/pricing/thcik.jfif" alt="">
-                  <p class="d-inline mb-0 paragraph">Unlimited Email Warmup</p>
-                </div>
-
-                <div class="mt-4 d-flex leads">
-                  <img src="assets/images/pricing/thcik.jfif" alt="">
-                  <p class="d-inline mb-0 paragraph">1000 Active Leads</p>
-                </div>
-                <div class="mt-4 d-flex leads">
-                  <img src="assets/images/pricing/thcik.jfif" alt="">
-                  <p class="d-inline mb-0 paragraph">5000 Emails Monthly</p>
-                </div>
-
-                <div class="mt-4 d-flex leads">
-                  <img src="assets/images/pricing/thcik.jfif" alt="">
-                  <p class="d-inline mb-0 paragraph">Live Chat Support</p>
-                </div>
-              </div>
             </div>
-          </div>
-
-          <div class="col-4">
-
-            <div class="card two-card p-4 border-0">
-              <img class="im" src="assets/images/pricing/aer.jfif" alt="">
-              <h5 class="Leads-card mt-4">Hypergrowth</h5>
-
-              <div class="mt-4">
-                <h4 class="d-inline dollar">$77.6</h4>
-                <p class="d-inline mo">/mo</p>
-
-                <div class="mt-5">
-                  <button type="button" class="btn active number-2">START FOR FREE</button>
-                </div>
-
-              </div>
-              <div class="mt-4 ">
-                <div class="mt-4 d-flex leads">
-                  <img src="assets/images/pricing/thcik.jfif" alt="">
-                  <p class="d-inline mb-0 paragraph">Unlimited Email Accounts</p>
-                </div>
-
-                <div class="mt-4 d-flex leads">
-                  <img src="assets/images/pricing/thcik.jfif" alt="">
-                  <p class="d-inline mb-0 paragraph">Unlimited Email Warmup</p>
-                </div>
-
-                <div class="mt-4 d-flex leads">
-                  <img src="assets/images/pricing/thcik.jfif" alt="">
-                  <p class="d-inline mb-0 paragraph">25 000 Active Leads</p>
-                </div>
-                <div class="mt-4 d-flex leads">
-                  <img src="assets/images/pricing/thcik.jfif" alt="">
-                  <p class="d-inline mb-0 paragraph">100 000 Emails Monthly</p>
-                </div>
-
-                <div class="mt-4 d-flex leads">
-                  <img src="assets/images/pricing/thcik.jfif" alt="">
-                  <p class="d-inline mb-0 paragraph">premium Support</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-        </div>
-    </section>
-
-
+        </section>
   </main>
 
 

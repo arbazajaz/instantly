@@ -157,3 +157,137 @@ font-weight: 600;
 .email-section .email-account{
     margin-top: 90px;
 }
+
+
+
+
+
+
+
+
+/* big table */
+.big-table .big-container{
+    max-width: 93%;
+}
+.big-table .card{
+min-height: 1600px;
+border-radius: 30px;
+padding: 90px;
+}
+.big-table .m-heading{
+    font-size: 55px;
+    font-weight: 600;
+}
+.big-table .built{
+    font-weight: 500;
+    font-size: 21px;
+    color: rgba(15,15,15,.7);
+}
+.big-table .hyper{
+    width: 43%;
+    margin-top: 70px;
+    justify-content: space-between;
+
+}
+.big-table .gro{
+    margin-left: 124px;
+}
+.big-table .side-grow{
+    font-weight: 600;
+}
+.big-table .Basics{
+    align-items: center;
+}
+.big-table .th{
+    width: 64%;
+}
+.big-table .fa-check-circle:before {
+    content: "\f058";
+    color: #1179fc;
+    font-size: 25px;
+}
+.big-table .thick{
+    width: 17%;
+}
+.big-table .ultimate{
+    font-weight: normal;
+}
+.big-table .star{
+    padding: 12px 0px;
+    width: 18%;
+}
+.big-table .star:hover{
+background-color: #dc82fc;
+border: 1px solid #dc82fc;
+}
+#starone{
+    margin: 0px 90px;
+}
+
+.hero-section .icon{
+    background: #1179fc;
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    font-size: 36px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 13px;
+}
+.hero-section .fa-check{
+    color: white;
+    background: #1179fc;
+    padding: 5px;
+    border-radius: 20px;
+}
+.hero-section .pricing-card{
+    border-radius: 13px;
+    border: none;
+    margin: 10px;
+}
+
+.hero-section .nav-pills{
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+}
+.hero-section .nav-pills .nav-link{
+    border: 0px;
+    padding-bottom: 17px;
+    padding: 13px 20px;
+    font-weight: 700;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    color: black;
+}
+.hero-section .nav-pills .nav-link.active{
+    border: 0px;
+    color: white;
+    opacity: 1;
+    background-color: rgba(255,255,255,0);
+    font-weight: 700;
+    background-color: #1179fc;
+    color: white;
+}
+.hero-section .nav-tabs .nav-link{
+    border: 0px;
+    color: white;
+    opacity: 0.5;
+    background-color: rgba(255,255,255,0);
+    padding-bottom: 17px;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-weight: 700;
+}
+.hero-section .nav-tabs .nav-item.show .nav-link,.hero-section  .nav-tabs .nav-link.active{
+    border-bottom-width: 4px;
+    border-bottom-color: #1179fc;
+    border-style: solid;
+    opacity: 1;
+
+}
