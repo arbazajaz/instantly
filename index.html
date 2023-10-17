@@ -10,11 +10,16 @@
    <link rel="icon" href="assets/images/favicon.png" type="image/ico" sizes="16x16" />
    <!-- Font Awesome -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+   <!-- slick-slider -->
+   <link rel="stylesheet" href="assets/css/slick-theme.css">
+   <link rel="stylesheet" href="assets/css/slick.css">
+
    <!-- Stylesheet -->
    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
    <link type="text/css" rel="stylesheet" href="assets/css/style.css">
    <link type="text/css" rel="stylesheet" href="assets/css/pricing.css">
-   <title></title>
+   <title>Home</title>
 </head>
 
 <body>
@@ -103,27 +108,100 @@
             </div>
          </div>
       </section>
+      <!-- employee -->
 
-      <section>
+      <section class="employee">
          <div class="container">
             <div class="row">
-               <div class="col-10">
-                  <div class="white-card">
-                     <div class="testimonial-slide">
-                        <div class="testimonial-image" style="background-image: url('assets/images/clients/client_1.jpeg');"></div>
-                        <div class="testimonial-content" ><img
-                              src="assets/images/quote-left.svg"
-                              loading="lazy" alt="" class="comma-icon">
+               <div class="col-12 custom-Logos">
+                  <!-- 1 -->
+                  <div class="items">
+                     <div class="white-card">
+                        <div class="row p-4">
+                           <div class="col-lg-5 col-12">
+                              <img src="assets/images/employee/Alex-Siderius.jpeg" alt=""
+                                 class="img-fluid employee-img">
 
-                                 <div class="mini-heading  testimonial-text">Email outreach is one of the most effective ways to expand your business and gain new business. Instantly does this well; <span class="testimonial-text-black">you can add unlimited email accounts and just does all the basics in the right way!</span></div>
-                           <div class="testimonial-person-details">
-                              <h4 class="person-name">Alex Siderius</h4>
-                              <p class="person-designation">CEO at Webaware</p>
                            </div>
-            
+                           <div class="col-lg-7 col-12">
+                              <div class="testimonial-content"><img src="assets/images/quote-left.svg" loading="lazy"
+                                    alt="" class="comma-icon">
+
+                                 <div class="mini-heading  testimonial-text">Email outreach is one of the most
+                                    effective ways to expand your business and gain new business. Instantly does
+                                    this well; <span class="testimonial-text-black">you can add unlimited email
+                                       accounts and just does all the basics in the right way!</span></div>
+                                 <div class="testimonial-person-details">
+                                    <h4 class="person-name">Alex Siderius</h4>
+                                    <p class="person-designation">CEO at Webaware</p>
+                                 </div>
+
+                              </div>
+                           </div>
+
+
+
                         </div>
                      </div>
                   </div>
+                  <!-- 2 -->
+                  <div class="items">
+                     <div class="white-card">
+                        <div class="row p-4">
+                           <div class="col-lg-5 col-12">
+                              <img src="assets/images/employee/Sam-Wilson.png" alt="" class="img-fluid employee-img">
+
+                           </div>
+                           <div class="col-lg-7 col-12">
+                              <div class="testimonial-content"><img src="assets/images/quote-left.svg" loading="lazy"
+                                    alt="" class="comma-icon">
+
+                                 <div class="mini-heading  testimonial-text">“I’ve specialised in cold email marketing
+                                    since 2018 and in this time I've used almost every popular cold-emailing tool
+                                    available on the market today - <span class="testimonial-text-black">Instantly is hands down my favourite of them all.”</span></div>
+                                 <div class="testimonial-person-details">
+                                    <h4 class="person-name">Sam Wilson</h4>
+                                    <p class="person-designation">Managing Director of Canbury Partners</p>
+                                 </div>
+
+                              </div>
+                           </div>
+
+
+
+                        </div>
+                     </div>
+                  </div>
+                  <!-- 3 -->
+                  <div class="items">
+                     <div class="white-card">
+                        <div class="row p-4">
+                           <div class="col-lg-5 col-12">
+                              <img src="assets/images/employee/Tony-Liu.jpeg" alt="" class="img-fluid employee-img">
+
+                           </div>
+                           <div class="col-lg-7 col-12">
+                              <div class="testimonial-content"><img src="assets/images/quote-left.svg" loading="lazy"
+                                    alt="" class="comma-icon">
+
+                                 <div class="mini-heading  testimonial-text">“Instantly is the exact email outreach solution that I always wish existed.<span class="testimonial-text-black"> We’ve tried almost every product that people in the outbound space talks about and none of them even comes close to this.”
+                                 </span></div>
+                                 <div class="testimonial-person-details">
+                                    <h4 class="person-name">Tony Liu</h4>
+                                    <p class="person-designation">CEO at Omnichannel</p>
+                                 </div>
+
+                              </div>
+                           </div>
+
+
+
+                        </div>
+                     </div>
+                  </div>
+
+
+
                </div>
             </div>
          </div>
@@ -643,12 +721,40 @@
    </main>
    <!-- JavaScript -->
    <script src="assets/js/jquery-3.5.1.js"></script>
+   <script src="assets/js/slick.min.js"></script>
    <script src="assets/js/popper.min.js"></script>
    <script src="assets/js/bootstrap.min.js"></script>
 
 
-   <!-- collapse js  -->
    <script>
+      // employee js
+      $(document).ready(function () {
+         $(".employee .custom-Logos").slick({
+            dots: false,
+            infinite: true,
+            speed: 300,
+            autoplay: false,
+            autoplaySpeed: 2000,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: true,
+            responsive: [
+               {
+                  breakpoint: 1024,
+                  settings: {
+                     slidesToShow: 1,
+                     slidesToScroll: 1,
+                     infinite: true,
+                     dots: false,
+                  }
+               }
+            ]
+         });
+      })
+
+
+
+      // collapse js  
       $(document).ready(function () {
          //  Rotate icon
          // 1
